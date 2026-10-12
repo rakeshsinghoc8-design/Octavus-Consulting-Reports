@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Octavus Regulatory Reports</title>
+<link>https://www.octavusconsulting.com</link>
+<description>Regulatory updates covering US and EU approvals, recalls and policy changes in life sciences.</description>
+<language>en</language>
+<atom:link href="https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/regulatory-reports.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Wed, 30 Sep 2026 09:00:00 +0000</lastBuildDate>
+<item>
+<title>Octavus Regulatory Updates - Jun 2026 to Sep 2026</title>
+<link>https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Jun_2026_to_Sep_2026.pdf</link>
+<guid isPermaLink="false">regulatory-reports:Octavus Regulatory Updates - Jun 2026 to Sep 2026</guid>
+<pubDate>Wed, 30 Sep 2026 09:00:00 +0000</pubDate>
+<description>US and EU approvals, recalls and policy updates, including FDA draft guidance for genome-editing therapies, the PreCheck manufacturing pilot, the FDA rule on non-animal methods and EMA's voluntary NAM data submission pilot.</description>
+</item>
+<item>
+<title>Octavus Regulatory Updates - Feb 2026 to May 2026</title>
+<link>https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Feb_2026_to_May_2026.pdf</link>
+<guid isPermaLink="false">regulatory-reports:Octavus Regulatory Updates - Feb 2026 to May 2026</guid>
+<pubDate>Sun, 31 May 2026 09:00:00 +0000</pubDate>
+<description>US and EU approvals, recalls and policy updates, including the FDA's QMSR implementation, CMC flexibility guidance for cell and gene therapy BLAs, EMA's tailored approach for biosimilars and the PRAC recommendation on levamisole medicines.</description>
+</item>
+<item>
+<title>Octavus Regulatory Updates - Nov 2025 to Jan 2026</title>
+<link>https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Nov_2025_to_Jan_2026.pdf</link>
+<guid isPermaLink="false">regulatory-reports:Octavus Regulatory Updates - Nov 2025 to Jan 2026</guid>
+<pubDate>Sat, 31 Jan 2026 09:00:00 +0000</pubDate>
+<description>US and EU approvals, recalls and policy updates, including the FDA's flexible CMC approach for cell and gene therapies, EMA's backing of the EU pharma legislation reform and a revised guideline on non-inferiority trials.</description>
+</item>
+</channel>
+</rss>
