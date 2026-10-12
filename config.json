@@ -15,6 +15,11 @@
       "folder": "regulatory-reports",
       "title": "Octavus Regulatory Reports",
       "description": "Regulatory updates covering US and EU approvals, recalls and policy changes in life sciences."
+    },
+    {
+      "folder": "know-your-investor",
+      "title": "Octavus Know Your Investor Series",
+      "description": "Octavus's take on leading life sciences investors."
     }
   ],
   "reports": [
@@ -192,6 +197,48 @@
       "date": "2026-09-30",
       "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Jun_2026_to_Sep_2026.pdf",
       "summary": "US and EU approvals, recalls and policy updates, including FDA draft guidance for genome-editing therapies, the PreCheck manufacturing pilot, the FDA rule on non-animal methods and EMA's voluntary NAM data submission pilot."
+    },
+    {
+      "set": "know-your-investor",
+      "title": "Know Your Investor: Catalio Capital Management (2025)",
+      "date": "2025-12-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Catalio_Capital_Management_2025_Octavus_Take.pdf",
+      "summary": "Know Your Investor series: Octavus's 2025 take on Catalio Capital Management."
+    },
+    {
+      "set": "know-your-investor",
+      "title": "Know Your Investor: General Catalyst (2025)",
+      "date": "2025-12-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/General_Catalyst_Partner_2025_Octavus_Take.pdf",
+      "summary": "Know Your Investor series: Octavus's 2025 take on General Catalyst."
+    },
+    {
+      "set": "know-your-investor",
+      "title": "Know Your Investor: Google Ventures (2025)",
+      "date": "2025-12-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Google_Venture_2025_Octavus_Take.pdf",
+      "summary": "Know Your Investor series: Octavus's 2025 take on Google Ventures."
+    },
+    {
+      "set": "know-your-investor",
+      "title": "Know Your Investor: Novo Holdings (2025)",
+      "date": "2025-12-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Novo_Holding_2025_Octavus_Take.pdf",
+      "summary": "Know Your Investor series: Octavus's 2025 take on Novo Holdings."
+    },
+    {
+      "set": "know-your-investor",
+      "title": "Know Your Investor: OrbiMed (2025)",
+      "date": "2025-12-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Orbimed_2025_Octavus_Take.pdf",
+      "summary": "Know Your Investor series: Octavus's 2025 take on OrbiMed."
+    },
+    {
+      "set": "know-your-investor",
+      "title": "Know Your Investor: RA Capital Management (2025)",
+      "date": "2025-12-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/RA_Capital_Management_2025_Octavus_Take.pdf",
+      "summary": "Know Your Investor series: Octavus's 2025 take on RA Capital Management."
     }
   ]
 }
