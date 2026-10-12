@@ -10,6 +10,11 @@
       "folder": "catalyst-reports",
       "title": "Octavus Catalyst Reports",
       "description": "Monthly catalyst reports on upcoming events shaping life sciences companies."
+    },
+    {
+      "folder": "regulatory-reports",
+      "title": "Octavus Regulatory Reports",
+      "description": "Regulatory updates covering US and EU approvals, recalls and policy changes in life sciences."
     }
   ],
   "reports": [
@@ -166,6 +171,27 @@
       "date": "2026-10-01",
       "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Oct_Catalyst_2026.pdf",
       "summary": "Monthly catalyst report for October 2026: upcoming catalysts and key events across life sciences."
+    },
+    {
+      "set": "regulatory-reports",
+      "title": "Octavus Regulatory Updates - Nov 2025 to Jan 2026",
+      "date": "2026-01-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Nov_2025_to_Jan_2026.pdf",
+      "summary": "US and EU approvals, recalls and policy updates, including the FDA's flexible CMC approach for cell and gene therapies, EMA's backing of the EU pharma legislation reform and a revised guideline on non-inferiority trials."
+    },
+    {
+      "set": "regulatory-reports",
+      "title": "Octavus Regulatory Updates - Feb 2026 to May 2026",
+      "date": "2026-05-31",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Feb_2026_to_May_2026.pdf",
+      "summary": "US and EU approvals, recalls and policy updates, including the FDA's QMSR implementation, CMC flexibility guidance for cell and gene therapy BLAs, EMA's tailored approach for biosimilars and the PRAC recommendation on levamisole medicines."
+    },
+    {
+      "set": "regulatory-reports",
+      "title": "Octavus Regulatory Updates - Jun 2026 to Sep 2026",
+      "date": "2026-09-30",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Jun_2026_to_Sep_2026.pdf",
+      "summary": "US and EU approvals, recalls and policy updates, including FDA draft guidance for genome-editing therapies, the PreCheck manufacturing pilot, the FDA rule on non-animal methods and EMA's voluntary NAM data submission pilot."
     }
   ]
 }
