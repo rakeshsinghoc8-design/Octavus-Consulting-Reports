@@ -1,0 +1,24 @@
+name: Build RSS feeds
+on:
+  push:
+    branches: [main]
+    paths: ["reports/**", "config.json", "scripts/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_feeds.py
+      - name: Commit updated feeds
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add feeds index.html
+          git diff --staged --quiet || git commit -m "Update RSS feeds"
+          git push

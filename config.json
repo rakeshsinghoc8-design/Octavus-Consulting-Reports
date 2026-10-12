@@ -1,0 +1,15 @@
+{
+  "site_url": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports",
+  "channel": {
+    "title": "Octavus Consulting",
+    "link": "https://www.octavusconsulting.com",
+    "description": "Data. Insights. Decisions. Life sciences competitive intelligence."
+  },
+  "sets": [
+    {
+      "folder": "catalyst-reports",
+      "title": "Octavus Catalyst Reports",
+      "description": "Monthly catalyst reports on upcoming events shaping life sciences companies."
+    }
+  ]
+}
