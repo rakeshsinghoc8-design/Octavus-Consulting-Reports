@@ -23,6 +23,13 @@
     }
   ],
   "reports": [
+        {
+      "set": "catalyst-reports",
+      "title": "Octavus Catalyst Report - November 2026",
+      "date": "2026-11-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Nov_Catalyst_2026.pdf",
+      "summary": "Monthly catalyst report for November 2026: upcoming catalysts and key events across life sciences."
+    },
     {
       "set": "catalyst-reports",
       "title": "Octavus Catalyst Report - January 2025",
