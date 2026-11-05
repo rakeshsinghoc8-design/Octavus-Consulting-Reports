@@ -20,10 +20,15 @@
       "folder": "know-your-investor",
       "title": "Octavus Know Your Investor Series",
       "description": "Octavus's take on leading life sciences investors."
+    },
+    {
+      "folder": "insights-corner",
+      "title": "Octavus Insights Corner",
+      "description": "Octavus's insights on key topics, conferences and trends shaping life sciences."
     }
   ],
   "reports": [
-        {
+    {
       "set": "catalyst-reports",
       "title": "Octavus Catalyst Report - November 2026",
       "date": "2026-11-01",
@@ -246,6 +251,125 @@
       "date": "2025-12-31",
       "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/RA_Capital_Management_2025_Octavus_Take.pdf",
       "summary": "Know Your Investor series: Octavus's 2025 take on RA Capital Management."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - RAS Inhibitors (October 2026)",
+      "date": "2026-10-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/RAS_Inhibitors_Octavus_Oct_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for October 2026: RAS inhibitors."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Companion Diagnostics (September 2026)",
+      "date": "2026-09-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Companion_Diagnostics_Octavus_Sep_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for September 2026: companion diagnostics."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - AI in Drug Development (August 2026)",
+      "date": "2026-08-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/AI_in_Drug_Development_Octavus_Aug_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for August 2026: AI in drug development."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Radiopharma (July 2026)",
+      "date": "2026-07-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Radiopharma_Octavus_July_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for July 2026: radiopharma."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Regulatory Designations (June 2026)",
+      "date": "2026-06-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Regulatory_Designations_Octavus_June_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for June 2026: regulatory designations."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Gene Therapy (May 2026)",
+      "date": "2026-05-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Gene_Therapy_Octavus_May_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for May 2026: gene therapy."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Cell Therapy (April 2026)",
+      "date": "2026-04-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Cell_Therapy_Octavus_April_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for April 2026: cell therapy."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Biosimilar (March 2026)",
+      "date": "2026-03-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Biosimilar_Octavus_Mar_2026_insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for March 2026: biosimilars."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - China Biotech at JPM (February 2026)",
+      "date": "2026-02-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/China_Biotech_JPM_Octavus_Feb_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for February 2026: China biotech at JPM."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - ASH (January 2026)",
+      "date": "2026-01-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/ASH_Octavus_Jan_2026_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for January 2026: ASH."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - GLP-1/GIP (December 2025)",
+      "date": "2025-12-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/GLP-1GIP_Octavus_Dec_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for December 2025: GLP-1/GIP."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Obesity (November 2025)",
+      "date": "2025-11-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Obesity_Octavus_Nov_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for November 2025: obesity."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Animal Health (October 2025)",
+      "date": "2025-10-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Animal_Health_Octavus_Oct_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for October 2025: animal health."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - ADC (September 2025)",
+      "date": "2025-09-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/ADC_Octavus_Sept_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for September 2025: antibody-drug conjugates."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - Tariffs Impact (August 2025)",
+      "date": "2025-08-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Tariffs_Impact_Octavus_Aug_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for August 2025: impact of tariffs on life sciences."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - EULAR (July 2025)",
+      "date": "2025-07-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/EULAR_Octavus_July_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for July 2025: EULAR."
+    },
+    {
+      "set": "insights-corner",
+      "title": "Octavus Insights Corner - AACR (June 2025)",
+      "date": "2025-06-01",
+      "link": "https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/AACR_Octavus_June_2025_Insights_Corner.pdf",
+      "summary": "Octavus Insights Corner for June 2025: AACR."
     }
   ]
 }
