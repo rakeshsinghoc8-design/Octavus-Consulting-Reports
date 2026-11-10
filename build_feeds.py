@@ -1,7 +1,13 @@
-import json
+import json, os, re, html
 from datetime import datetime, timezone
 from email.utils import format_datetime
+from urllib.parse import unquote, urlparse
 from xml.sax.saxutils import escape
+
+try:
+    from pypdf import PdfReader
+except ImportError:
+    PdfReader = None
 
 cfg = json.load(open("config.json", encoding="utf-8"))
 site = cfg["site_url"].rstrip("/")
@@ -10,9 +16,38 @@ ch = cfg["channel"]
 def to_date(s):
     return datetime.strptime(s, "%Y-%m-%d").replace(hour=9, tzinfo=timezone.utc)
 
+def pdf_name(i):
+    return unquote(os.path.basename(urlparse(i["link"]).path))
+
+def guid_of(i):
+    # Stable GUID: set + PDF file name. Not a link, and does not change if title/link text is edited.
+    return i["set"] + ":" + pdf_name(i)
+
+def body_html(i):
+    parts = []
+    # 1) hand-written HTML file wins (optional "body_file" in config.json)
+    bf = i.get("body_file")
+    if bf and os.path.exists(bf):
+        parts.append(open(bf, encoding="utf-8").read())
+    else:
+        # 2) otherwise extract the text from the PDF that sits in the repo
+        pdf = pdf_name(i)
+        if PdfReader and os.path.exists(pdf):
+            for page in PdfReader(pdf).pages:
+                for p in re.split(r"\n\s*\n", page.extract_text() or ""):
+                    p = " ".join(p.split())
+                    if p:
+                        parts.append("<p>" + html.escape(p) + "</p>")
+    if not parts:
+        parts.append("<p>" + html.escape(i.get("summary", "")) + "</p>")
+        print("WARNING: no full text for", i["title"])
+    parts.append('<p><a href="' + html.escape(i["link"]) + '">Download the full PDF report</a></p>')
+    return "\n".join(parts).replace("]]>", "]]&gt;")
+
 def feed_xml(title, desc, items, self_url):
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
-           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">', "<channel>",
+           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
+           "<channel>",
            f"<title>{escape(title)}</title>", f"<link>{escape(ch['link'])}</link>",
            f"<description>{escape(desc)}</description>", "<language>en</language>",
            f'<atom:link href="{escape(self_url)}" rel="self" type="application/rss+xml"/>']
@@ -20,9 +55,11 @@ def feed_xml(title, desc, items, self_url):
         out.append(f"<lastBuildDate>{format_datetime(to_date(items[0]['date']))}</lastBuildDate>")
     for i in items:
         out += ["<item>", f"<title>{escape(i['title'])}</title>", f"<link>{escape(i['link'])}</link>",
-                f'<guid isPermaLink="false">{escape(i["set"] + ":" + i["title"])}</guid>',
+                f'<guid isPermaLink="false">{escape(guid_of(i))}</guid>',
                 f"<pubDate>{format_datetime(to_date(i['date']))}</pubDate>",
-                f"<description>{escape(i.get('summary', ''))}</description>", "</item>"]
+                f"<description>{escape(i.get('summary', ''))}</description>",
+                f"<content:encoded><![CDATA[{body_html(i)}]]></content:encoded>",
+                "</item>"]
     out += ["</channel>", "</rss>"]
     return "\n".join(out)
 
