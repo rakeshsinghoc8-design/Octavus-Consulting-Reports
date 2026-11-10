@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>Octavus Regulatory Reports</title>
 <link>https://www.octavusconsulting.com</link>
@@ -10,23 +10,29 @@
 <item>
 <title>Octavus Regulatory Updates - Jun 2026 to Sep 2026</title>
 <link>https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Jun_2026_to_Sep_2026.pdf</link>
-<guid isPermaLink="false">regulatory-reports:Octavus Regulatory Updates - Jun 2026 to Sep 2026</guid>
+<guid isPermaLink="false">regulatory-reports:Octavus_Regulatory_Update_Jun_2026_to_Sep_2026.pdf</guid>
 <pubDate>Wed, 30 Sep 2026 09:00:00 +0000</pubDate>
 <description>US and EU approvals, recalls and policy updates, including FDA draft guidance for genome-editing therapies, the PreCheck manufacturing pilot, the FDA rule on non-animal methods and EMA's voluntary NAM data submission pilot.</description>
+<content:encoded><![CDATA[<p>US and EU approvals, recalls and policy updates, including FDA draft guidance for genome-editing therapies, the PreCheck manufacturing pilot, the FDA rule on non-animal methods and EMA&#x27;s voluntary NAM data submission pilot.</p>
+<p><a href="https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Jun_2026_to_Sep_2026.pdf">Download the full PDF report</a></p>]]></content:encoded>
 </item>
 <item>
 <title>Octavus Regulatory Updates - Feb 2026 to May 2026</title>
 <link>https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Feb_2026_to_May_2026.pdf</link>
-<guid isPermaLink="false">regulatory-reports:Octavus Regulatory Updates - Feb 2026 to May 2026</guid>
+<guid isPermaLink="false">regulatory-reports:Octavus_Regulatory_Update_Feb_2026_to_May_2026.pdf</guid>
 <pubDate>Sun, 31 May 2026 09:00:00 +0000</pubDate>
 <description>US and EU approvals, recalls and policy updates, including the FDA's QMSR implementation, CMC flexibility guidance for cell and gene therapy BLAs, EMA's tailored approach for biosimilars and the PRAC recommendation on levamisole medicines.</description>
+<content:encoded><![CDATA[<p>US and EU approvals, recalls and policy updates, including the FDA&#x27;s QMSR implementation, CMC flexibility guidance for cell and gene therapy BLAs, EMA&#x27;s tailored approach for biosimilars and the PRAC recommendation on levamisole medicines.</p>
+<p><a href="https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Feb_2026_to_May_2026.pdf">Download the full PDF report</a></p>]]></content:encoded>
 </item>
 <item>
 <title>Octavus Regulatory Updates - Nov 2025 to Jan 2026</title>
 <link>https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Nov_2025_to_Jan_2026.pdf</link>
-<guid isPermaLink="false">regulatory-reports:Octavus Regulatory Updates - Nov 2025 to Jan 2026</guid>
+<guid isPermaLink="false">regulatory-reports:Octavus_Regulatory_Update_Nov_2025_to_Jan_2026.pdf</guid>
 <pubDate>Sat, 31 Jan 2026 09:00:00 +0000</pubDate>
 <description>US and EU approvals, recalls and policy updates, including the FDA's flexible CMC approach for cell and gene therapies, EMA's backing of the EU pharma legislation reform and a revised guideline on non-inferiority trials.</description>
+<content:encoded><![CDATA[<p>US and EU approvals, recalls and policy updates, including the FDA&#x27;s flexible CMC approach for cell and gene therapies, EMA&#x27;s backing of the EU pharma legislation reform and a revised guideline on non-inferiority trials.</p>
+<p><a href="https://rakeshsinghoc8-design.github.io/Octavus-Consulting-Reports/Octavus_Regulatory_Update_Nov_2025_to_Jan_2026.pdf">Download the full PDF report</a></p>]]></content:encoded>
 </item>
 </channel>
 </rss>
